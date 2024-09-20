@@ -1,0 +1,11 @@
+#tokrn 
+TOKEN = '7112345223:AAH-DaqqEY3UGHbMcByushmzC-GuanqL6uA'
+
+#Levantrar volumen
+docker-compose up -d
+
+#Logs
+docker-compose logs -f
+
+#re-build - cambios
+docker-compose up --build
